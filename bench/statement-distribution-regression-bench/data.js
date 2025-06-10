@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749549121138,
+  "lastUpdate": 1749591818241,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "statement-distribution-regression-bench": [
@@ -49275,6 +49275,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "test-environment",
             "value": 0.04505061430799997,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "patrick.mcevoy@moose.run",
+            "name": "Patrick McEvoy",
+            "username": "firegrass"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "934d5139caf1c3203be0bfca5344fa1dcfd5f13c",
+          "message": "Add freebsd sysinfo for telemetry (#7985)\n\n# Description\n\nGathering hardware information on FreeBSD\n\n## Integration\n\nN/A (I think)\n\n## Review Notes\n\nPlease note FreeBSD does not use the linux kernel, nor is it's kernel\nversioned differently as in linux distros.\n\n# Checklist\n\n* [x] My PR includes a detailed description as outlined in the\n\"Description\" and its two subsections above.\n* [ ] My PR follows the [labeling requirements](\n\nhttps://github.com/paritytech/polkadot-sdk/blob/master/docs/contributor/CONTRIBUTING.md#Process\n) of this project (at minimum one label for `T` required)\n* External contributors: ask maintainers to put the right label on your\nPR.\n* [x] I have made corresponding changes to the documentation (if\napplicable)\n* [ ] I have added tests that prove my fix is effective or that my\nfeature works (if applicable)\n\nYou can remove the \"Checklist\" section once all have been checked. Thank\nyou for your contribution!\n\n✄\n-----------------------------------------------------------------------------",
+          "timestamp": "2025-06-10T20:40:15Z",
+          "tree_id": "e3053bd6ecc7f34bb7e67d94f33bb4b311dbdc71",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/934d5139caf1c3203be0bfca5344fa1dcfd5f13c"
+        },
+        "date": 1749591799978,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Received from peers",
+            "value": 106.39999999999996,
+            "unit": "KiB"
+          },
+          {
+            "name": "Sent to peers",
+            "value": 127.95799999999994,
+            "unit": "KiB"
+          },
+          {
+            "name": "statement-distribution",
+            "value": 0.033693261547999995,
+            "unit": "seconds"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.04414863795799993,
             "unit": "seconds"
           }
         ]
